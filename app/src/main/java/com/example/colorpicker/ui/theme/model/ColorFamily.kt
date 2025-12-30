@@ -37,7 +37,9 @@ val pinkFamily = ColorFamily(
         ColorShade("Pink", Color(0xFFC2185B)),
         ColorShade("Pink", Color(0xFFAD1457)),
         ColorShade("Pink", Color(0xFF880E4F)),
-        ColorShade("Pink Deep", Color(0xFF560027))
+        ColorShade("Pink Deep", Color(0xFF560027)),
+        ColorShade("Purple", Color(0xFF4A148C)),
+
     )
 )
 
