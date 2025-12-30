@@ -6,7 +6,7 @@ import androidx.compose.ui.graphics.Color
 data class ColorShade(val label: String, val color: Color)
 data class ColorFamily(val name: String, val shades: List<ColorShade>)
 
-// ================== COLOR FAMILIE ==================
+// ================== COLOR FAMiLE ==================
 
 val redFamily = ColorFamily(
     "Red", listOf(
@@ -20,7 +20,8 @@ val redFamily = ColorFamily(
         ColorShade("Red", Color(0xFFD32F2F)),
         ColorShade("Red", Color(0xFFC62828)),
         ColorShade("Red", Color(0xFFB71C1C)),
-        ColorShade("Red Deep", Color(0xFF8B0000))
+        ColorShade("Red Deep", Color(0xFF8B0000)),
+        ColorShade("Red", Color(0xFFFFEBEE))
     )
 )
 
