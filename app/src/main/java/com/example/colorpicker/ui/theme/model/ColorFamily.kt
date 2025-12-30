@@ -1,13 +1,12 @@
 package com.example.colorpicker.ui.theme.model
 
 import androidx.compose.ui.graphics.Color
-import com.example.colorpicker.ui.theme.model.ColorShade
 
 // Data classes
 data class ColorShade(val label: String, val color: Color)
 data class ColorFamily(val name: String, val shades: List<ColorShade>)
 
-// ================== COLOR FAMILIE ==================
+// ================== COLOR FAMiLE ==================
 
 // Total 209 color shadws..
 val redFamily = ColorFamily(
@@ -22,9 +21,7 @@ val redFamily = ColorFamily(
         ColorShade("Red", Color(0xFFD32F2F)),
         ColorShade("Red", Color(0xFFC62828)),
         ColorShade("Red", Color(0xFFB71C1C)),
-        ColorShade("Red Deep", Color(0xFF8B0000)) ,
-        ColorShade("Purple", Color(0xFF7B1FA2)),
-
+        ColorShade("Red Deep", Color(0xFF8B0000))
     )
 )
 
@@ -40,9 +37,7 @@ val pinkFamily = ColorFamily(
         ColorShade("Pink", Color(0xFFC2185B)),
         ColorShade("Pink", Color(0xFFAD1457)),
         ColorShade("Pink", Color(0xFF880E4F)),
-        ColorShade("Pink Deep", Color(0xFF560027)),
-        ColorShade("Purple", Color(0xFF4A148C)),
-
+        ColorShade("Pink Deep", Color(0xFF560027))
     )
 )
 
