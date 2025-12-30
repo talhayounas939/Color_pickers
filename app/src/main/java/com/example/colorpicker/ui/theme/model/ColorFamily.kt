@@ -8,6 +8,7 @@ data class ColorFamily(val name: String, val shades: List<ColorShade>)
 
 // ================== COLOR FAMILIE ==================
 
+// Total 209 color shadws..
 val redFamily = ColorFamily(
     "Red", listOf(
         ColorShade("Red", Color(0xFFFFEBEE)),
