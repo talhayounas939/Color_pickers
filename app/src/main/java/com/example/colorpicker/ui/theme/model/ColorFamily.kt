@@ -1,6 +1,7 @@
 package com.example.colorpicker.ui.theme.model
 
 import androidx.compose.ui.graphics.Color
+import com.example.colorpicker.ui.theme.model.ColorShade
 
 // Data classes
 data class ColorShade(val label: String, val color: Color)
@@ -21,7 +22,9 @@ val redFamily = ColorFamily(
         ColorShade("Red", Color(0xFFD32F2F)),
         ColorShade("Red", Color(0xFFC62828)),
         ColorShade("Red", Color(0xFFB71C1C)),
-        ColorShade("Red Deep", Color(0xFF8B0000))
+        ColorShade("Red Deep", Color(0xFF8B0000)) ,
+        ColorShade("Purple", Color(0xFF7B1FA2)),
+
     )
 )
 
